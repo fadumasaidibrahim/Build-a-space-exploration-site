@@ -1,7 +1,7 @@
 
 body {
+    margin: 0;
     color: #82a5ca;
-    background-image: url("images/galaxy.webp");
     background-size: cover;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -9,6 +9,7 @@ body {
 
 #main-logo {
     width: 100px;
+    
 }
 
 .btn {
@@ -22,9 +23,16 @@ body {
 
 .underline {
     border-bottom: 4px solid white;
+    
 }
-   
-
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
 /*
 Challenge:
 Wrap the "hero" section (title, button, logo) in a <div>
